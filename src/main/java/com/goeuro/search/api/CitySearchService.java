@@ -25,7 +25,7 @@ public class CitySearchService {
             return;
         }
         if(args.length > 1){
-            log.error("Please note that only 1st argument is used in service.");
+            log.warn("Please note that only 1st argument is used in service.");
         }
         String searchedQuery = args[0];
         try {
